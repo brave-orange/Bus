@@ -11,7 +11,7 @@ public class JDBCConnectionFactory {
 		Connection conn=null;
 		try {
 			Class.forName("com.mysql.jdbc.Driver");
-			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/bus?useUnicode=true&characterEncoding=utf-8","root","wang");
+			conn=DriverManager.getConnection("jdbc:mysql://localhost:3306/bus?useUnicode=true&characterEncoding=utf-8","root","××××");
 		} catch (ClassNotFoundException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
