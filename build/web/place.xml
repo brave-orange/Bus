@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<div id="place">        
+                            <input type="text" id="stopname" name="place" placeholder="请输入站名" >      
+                            <input type="button" id="btn1" name="submit" onclick="SearchPlace()" value="查询">
+                            </div>

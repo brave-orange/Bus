@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+    <div id="place">
+                            
+                            <input type="text" name="start" placeholder="请输入起点" >
+                            <input type="text" name="end" placeholder="请输入终点" >
+                            
+                            </div>
+                        <div style="width:100px;margin: 0 auto;">
+                        <input type="button" id="btn" name="submit" onclick="search1()" value="查询">
+                        </div>

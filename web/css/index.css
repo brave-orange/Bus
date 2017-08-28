@@ -1,0 +1,278 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-6-27, 14:48:57
+    Author     : yongcheng
+*/
+  #main_body{
+            
+            margin-top: 20px;
+            width:100%;
+            height:900px;
+            background-size: cover;                              
+    }
+    #background{
+        width:100%;
+        height:100%;
+        -webkit-filter: blur(10px);
+        -moz-filter: blur(10px);
+        -ms-filter: blur(10px);
+        -o-filter: blur(10px);
+        filter: blur(10px);
+        filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4, MakeShadow=false);
+    }
+     #search-frame{
+            
+            width:70%;
+            height:80%;
+            background:white;
+            position: relative;
+            margin-top: -850px;
+            margin-left: 15%;
+            opacity: 0.8;
+            display: block;
+        }
+        
+       #goAdmin{
+            width:150px;
+            margin:0 auto;
+            margin-top: 50px;
+        }
+        a{
+    
+ 
+}
+a:link {color:#FF0000;}/* 未被访问的链接 */
+
+a:visited {color:#00FF00;}/* 已被访问的链接 */
+
+a:hover {color:#FF00FF;}/* 鼠标指针移动到链接上 */
+
+a:active {color:#0000FF;}/* 正在被点击的链接 */
+        #title{
+            
+            font-family:迷你简汉真广标;
+            border:5px;
+            font-size: 35px;
+            font-weight:bolder;
+            color:#000;
+            text-align:center;
+            margin-top: 15px;
+        }
+        
+        #search-method{
+            width:70%;
+            height: 40px;
+            margin-left:15%;
+            margin-top: 60px;   
+            
+        }
+        #text{
+            
+            width:420px;
+            margin:0 auto;  
+        }
+        
+        #text1{
+            text-align: center;
+           cursor: pointer;
+            width:100px;
+            height:40px;
+            font-family: 黑体;
+            font-size: 20px;
+            float:left;
+            color:#000;
+            margin-left: 60px;
+            background:#fff;
+        }
+                #text2{
+            text-align: center;
+           cursor: pointer;
+            width:100px;
+            height:40px;
+            font-family: 黑体;
+            font-size: 20px;
+            float:left;
+            color:#000;
+            margin-left: 60px;
+            background:#fff;
+        }
+        #text0{
+            background:#fff;
+            text-align: center;
+            cursor: pointer;
+           width:100px;
+           height:40px;
+            font-family: 黑体;
+            font-size: 20px;
+            float:left;
+            background:#ccc;
+            
+        }
+        #text0:hover,#text1:hover,#text2:hover
+        {
+            
+            color:blue; 
+            margin-top: -10px;
+            
+        }
+        #input{
+            border:solid 2px;
+            width:70%;
+            height:300px;
+            margin-top: 70px;
+            margin-left: 15%;
+        }
+
+        hr{
+            width: 100%;
+        }
+        input[type=text],input[type=password]{
+                  width:220px;
+                  height: 30px;
+	margin-top:100px;
+	border-radius:6px;
+	border:2px solid #000;
+                  background:#fff;
+                  margin-left: 30px;
+
+	}
+        #place{
+            width:530px;
+            margin:0 auto;
+        }
+        #btn{
+                  border-radius:5px;
+	width:100px;
+	height:30px;
+	margin-top:30px;
+	background:#11d;
+	color:#fff;
+	font-size:8px;
+	border:0px;
+                  
+}
+#btn:hover{
+    background:#33f;
+
+    margin-top:25px;
+}
+#btn1{
+     border-radius:5px;
+	width:100px;
+	height:30px;
+	margin-top:30px;
+                   margin-left: 50px;
+	background:#11d;
+	color:#fff;
+	font-size:8px;
+	border:0px;
+}
+#btn1:hover{
+    background:#33f;
+
+    margin-top:25px;
+}
+
+/*遮罩div*/
+
+
+.mask{ 
+    display:none;
+	z-index:800;
+	position:fixed!important; 
+	position:absolute; 
+	left:0px; top:0px; 
+	width:100%; 
+	height:100%;  
+	background:#000; 
+	filter: alpha(opacity=45); 
+	opacity: 0.65; 
+	-moz-opacity: 0.45; 
+	-khtml-opacity: 0.45;
+} /*遮罩滤镜*/
+.opendiv{
+    display:none;
+	z-index:950;
+	position:absolute;
+	left:20%; top:20px;right:20%;
+    /*margin: auto;*/
+	width:60%; 
+	height: 800px; 
+	background-color: #fff; 
+	
+	
+} 
+.closebtn{
+	display:none;
+	z-index:950;
+	position:fixed;
+	left:80%; top:100px; 
+	width:70px;
+	height:70px;
+	background:url(../image/cbtn.png);
+}
+
+#l-map{
+    height:400px;
+    width:80%;
+    margin-top: 20px;
+    margin-left:10%;
+}
+#l-map1{
+    height:400px;
+    width:80%;
+    margin-top: 20px;
+    margin-left:10%;
+}
+
+#r-result{width:100%;}
+
+/*check,jsp*/
+
+.signin{
+	font-weight: bolder;
+	font-size:30px;
+                  font-family: 迷你简汉真广标;
+	color:#ffd;
+}
+.btn{
+    border-radius:5px;
+	width:80px;
+	height:30px;
+	margin-top:30px;
+	background:#11d;
+	color:#fff;
+	font-size:8px;
+	border:0px;
+}
+.div{
+	text-align:center;
+	margin-top:100px;
+}
+
+.opendiv1{
+                display:none;
+                z-index:1050;
+                position:absolute;
+                left:40%; top:250px;right:40%;
+
+                /*margin: auto;*/
+                width:20%; 
+                height: 240px; 
+                background-color: #FFFF66; 
+                -moz-box-shadow:8px 8px 14px #333333; -webkit-box-shadow:8px 8px 14px #333333; box-shadow:8px 8px 14px #333333;
+                overflow-y: auto;
+            } 
+        .closebtn1{
+                display:none;
+                z-index:950;
+                position:fixed;
+                left:60%; top:250px; 
+                width:70px;
+                height:70px;
+                background:url(../image/cbtn.png);
+            }

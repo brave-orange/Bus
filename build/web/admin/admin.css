@@ -1,0 +1,263 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017-6-29, 16:02:19
+    Author     : yongcheng
+*/
+
+           .right1{
+                margin:auto;
+                width:70%;
+                height:auto;
+                font-size:20px;
+                margin-top:20px;
+                border:double 4px;
+                -moz-box-shadow:8px 8px 14px #333333; -webkit-box-shadow:8px 8px 14px #333333; box-shadow:8px 8px 14px #333333;
+            }
+            .t1{
+                font-size:25px;
+                font-family:黑体;
+                margin-left:15%;
+            }
+            .footer{
+                font-size:20px;
+                font-family:黑体;
+                position:absolute;
+                left:75%;top:20px;
+
+            }
+            ul{
+                width:300px;
+                margin:0 auto;
+            }
+            .opendiv{
+                display:none;
+                z-index:1050;
+                position:absolute;
+                left:40%; top:150px;right:40%;
+
+                /*margin: auto;*/
+                width:20%; 
+                height: 150px; 
+                background-color: #FFFF66; 
+                -moz-box-shadow:8px 8px 14px #333333; -webkit-box-shadow:8px 8px 14px #333333; box-shadow:8px 8px 14px #333333;
+                overflow-y: auto;
+            } 
+            .closebtn{
+                display:none;
+                z-index:950;
+                position:fixed;
+                left:60%; top:150px; 
+                width:70px;
+                height:70px;
+                background:url(../image/cbtn.png);
+            }
+            .changediv{
+                display:none;
+                z-index:950;
+                position:absolute;
+                left:25%; top:100px;right:25%;
+
+                /*margin: auto;*/
+                width:50%; 
+                height: 500px; 
+                background-color: #FFFF66; 
+                -moz-box-shadow:8px 8px 14px #333333; -webkit-box-shadow:8px 8px 14px #333333; box-shadow:8px 8px 14px #333333;
+                overflow-y: auto;
+            } 
+             .newroutediv{
+                display:none;
+                z-index:950;
+                position:absolute;
+                left:25%; top:100px;right:25%;
+
+                /*margin: auto;*/
+                width:50%; 
+                height: 700px; 
+                background-color: #FFFF66; 
+                -moz-box-shadow:8px 8px 14px #333333; -webkit-box-shadow:8px 8px 14px #333333; box-shadow:8px 8px 14px #333333;
+                overflow-y: auto;
+            } 
+            .closebtn2{
+                display:none;
+                z-index:950;
+                position:fixed;
+                left:75%; top:150px; 
+                width:70px;
+                height:70px;
+                background:url(../image/cbtn.png);
+            }
+            .closebtn1{
+                display:none;
+                z-index:950;
+                position:fixed;
+                left:75%; top:150px; 
+                width:70px;
+                height:70px;
+                background:url(../image/cbtn.png);
+            }
+
+
+            .mask{ 
+                  display:none;
+	z-index:800;
+	position:fixed!important; 
+	position:absolute; 
+	left:0px; top:0px; 
+	width:100%; 
+	height:100%;  
+	background:#000; 
+	filter: alpha(opacity=45); 
+	opacity: 0.65; 
+	-moz-opacity: 0.45; 
+	-khtml-opacity: 0.45;
+                    -webkit-filter: blur(10px);
+                    -moz-filter: blur(10px);
+                    -ms-filter: blur(10px);
+                    -o-filter: blur(10px);
+                    filter: blur(10px);
+                    filter: progid:DXImageTransform.Microsoft.Blur(PixelRadius=4, MakeShadow=false);
+                } /*遮罩滤镜*/
+            	#stop{
+		font-family:黑体;
+		font-size:20px;
+		margin-bottom: 30px;
+		margin-top: 10px;
+	}
+        	#font{
+		font-size:15px;
+
+	}
+        	#submit{
+		width: 100px;
+		height: 30px;
+		background: rgba(0,0,0,.1);
+		border:solid #ccc 1px;
+		border-radius: 3px;
+		margin-top: 10px;
+	}
+	#submit:hover{
+		cursor: pointer;
+		background:#D8D8D8;
+	}
+        	#long{
+		width: 200px;
+		height: 30px;
+
+		border-radius: 3px;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+        	#login{
+		width: 500px;
+		height: 350px;
+		background: #FFF;
+		margin:50px auto;
+		position: relative;
+	}
+                input[type=text]{
+                  width:150px;
+                  height: 30px;
+	
+	border-radius:6px;
+	border:2px solid #000;
+                  background:#fff;
+                  
+
+	}
+        
+        .tangram-suggestion
+        {
+            z-index:950;
+        }
+        
+        .left-area{
+	position:relative;
+	margin-left:100px;margin-top:20px;
+	width:350px;
+	height:450px;
+	
+	float:left;
+	
+}
+
+.right-area{
+	position:absolute;
+	right:100px;top:130px;
+	
+	width:350px;
+	height:450px;
+	
+	
+	
+}
+.list{
+	position:relative;
+	margin-left:0px;margin-top:0px;
+	border: solid 1px;
+	width:310px;
+	height:420px;
+	background:white;
+	opacity: 0.8; 
+                  overflow: auto;
+}
+.list li{
+	margin-left:15px;
+	width:230;
+	height:30px;
+	margin-right:15px;
+	font-size:20px;
+	background-repeat : no-repeat ;
+	font-family:黑体;
+	margin-top:10px;
+	background:#cccccc;
+                  cursor: pointer;
+}
+.list li:hover{
+	background:#336699;
+	margin-left:5px;
+}
+.list li:active{
+	background:#6699cc;
+	margin-left:15px;
+}
+.route-title{
+	width:500px;
+	margin:30px auto;
+	font-size:30px;
+	font-family:黑体;
+	height:50px;
+	text-align:center;
+}
+.route-title input{
+	width:150px;
+    height: 40px;
+	border-radius:6px;
+	border:2px solid #000;
+     background:#fff;
+     margin-left: 10px;
+	 text-align:center;
+}
+.title1{
+	width:100%;
+	height:30px;
+	font-size:20px;
+}
+.newroutebtn{
+    position:relative;
+    margin-left:370px;margin-top: 520px;
+    width:80px;
+    height:30px;
+    background: #99CCFF;
+}
+.newroutebtn:hover{
+     background:#3366CC;
+}
+.newroutebtn:active{
+     background:#3366CC;
+     margin-bottom:-10px;
+     margin-right: -10px;
+}
